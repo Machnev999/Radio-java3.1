@@ -28,6 +28,7 @@ public class TestRadio {
     }
 
     @Test
+     @Disabled
     public void wrongIncreaseMaxRadioStation()// - след станция если бы не было границы в 9 станций
     {
         rad.setCurrentRadioStation(9);
@@ -60,6 +61,7 @@ public class TestRadio {
     }
 
     @Test
+     @Disabled
     public void wrongReduceMinRadioStation() {//--след станция если бы не было границы в 0
         rad.setCurrentRadioStation(0);
         rad.reduceRadioStation();
@@ -93,6 +95,7 @@ public class TestRadio {
     }
 
     @Test
+     @Disabled
     public void wrongIncreaseMaxVolume() {//-- увел максимально гром-ти без ограничиения
 
         rad.setCurrentVolume(10);
@@ -126,6 +129,7 @@ public class TestRadio {
         assertEquals(0, rad.getCurrentVolume());
     }
     @Test
+     @Disabled
     public void wrongReduceMinVolume() {//-- умен. минимально гром-ти без ограничиения
 
         rad.setCurrentVolume(0);
