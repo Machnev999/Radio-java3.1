@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-import org.junit.jupiter.api.Disabled;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -89,8 +89,8 @@ public class TestRadio {
    
     
 //--------------------------------------wrong--------------------------------------
-    /*   @Test
-     @Disabled
+    /*  @Test
+
     public void wrongIncreaseMaxRadioStation(){// - след станция если бы не было границы в 9 станций
     
         rad.setCurrentRadioStation(9);
@@ -99,7 +99,7 @@ public class TestRadio {
     }
 
     @Test
-    @Disabled
+
     public void wrongIncreaseRadioStation() {// - негативное значение в выбранной станции с послед.повышением
     
         rad.setCurrentRadioStation(12);
@@ -108,7 +108,7 @@ public class TestRadio {
     }
     
      @Test
-    @Disabled
+
     public void wrongReduceVolume() {//-- негативное  значение умен минимальной гром-ти без ограничиения
 
         rad.setCurrentVolume(-1);
@@ -118,7 +118,7 @@ public class TestRadio {
         
         
         @Test
-     @Disabled
+
     public void wrongReduceMinVolume() {//-- умен. минимально гром-ти без ограничиения
 
         rad.setCurrentVolume(0);
@@ -127,7 +127,7 @@ public class TestRadio {
     }
     
      @Test
-    @Disabled
+
     public void wrongIncreaseVolume() {//-- негативное  значение увел максимально гром-ти без ограничиения
 
         rad.setCurrentVolume(12);
@@ -136,7 +136,7 @@ public class TestRadio {
     }
     
      @Test
-     @Disabled
+
     public void wrongIncreaseMaxVolume() {//-- увел максимально гром-ти без ограничиения
 
         rad.setCurrentVolume(10);
@@ -145,7 +145,7 @@ public class TestRadio {
     }
     
      @Test
-     @Disabled
+
     public void wrongReduceMinRadioStation() {//--след станция если бы не было границы в 0
         rad.setCurrentRadioStation(0);
         rad.reduceRadioStation();
@@ -153,7 +153,7 @@ public class TestRadio {
     }
 
     @Test
-    @Disabled
+
     public void wrongReduceRadioStation() {//-- негативное значение в выбранной станции с послед ее уменьшением
         rad.setCurrentRadioStation(-1);
         rad.reduceRadioStation();

@@ -3,11 +3,11 @@ package ru.netology.domain;
 public class Radio {
 
     private int currentRadioStation;
-    private int minRadioStation = 0;
-    private int maxRadioStation = 9;
+    private final int minRadioStation = 0;
+    private final int maxRadioStation = 9;
     private int currentVolume;
-    private int minVolume = 0;
-    private int maxVolume = 10;
+    private final int minVolume = 0;
+    private final int maxVolume = 10;
 
 
     public int getCurrentRadioStation() { // - какая радиостанция текущая
